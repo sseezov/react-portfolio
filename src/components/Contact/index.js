@@ -3,7 +3,7 @@ import Loader from 'react-loaders'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
-import AnimatedLetters from '../AnimatedLetters'
+import AnimatedLetters from '../animatedLetters/index'
 import './index.scss'
 
 const Contact = () => {
@@ -20,12 +20,7 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm(
-        'gmail',
-        'template_YeJhZkgb',
-        form.current,
-        'your-token'
-      )
+      .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
       .then(
         () => {
           alert('Message successfully sent!')

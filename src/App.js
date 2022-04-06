@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom'
-import Home from './components/Home'
-import About from './components/About'
+import Home from './components/home'
+import About from './components/about'
 import Contact from './components/Contact'
-import Layout from './components/Layout'
+import Layout from './components/layout'
 import './App.scss'
 
 function App() {
