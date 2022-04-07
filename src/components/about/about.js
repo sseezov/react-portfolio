@@ -22,32 +22,12 @@ const About = () => {
 
   return (
     <>
-      <div className="container about-page">
+      <div className="container-about">
         <div className="text-zone">
           <h1 className="left-logo">
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={[
-                ' ',
-                ' ',
-                ' ',
-                ' ',
-                ' ',
-                ' ',
-                ' ',
-                ' ',
-                ' ',
-                ' ',
-                ' ',
-                ' ',
-                ' ',
-                'О',
-                ' ',
-                'с',
-                'е',
-                'б',
-                'е',
-              ]}
+              strArray={['О', ' ', 'с', 'е', 'б', 'е']}
               idx={12}
             />
           </h1>
@@ -76,6 +56,7 @@ const About = () => {
             диджитализации, понимаемой как переоткрытие пифагорейских практик.
           </p>
         </div>
+
         <div className="img-block">
           <img className="MyPic" src={MyPic} alt="это я" />
         </div>

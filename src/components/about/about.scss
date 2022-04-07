@@ -1,113 +1,97 @@
+.container-about{
+  display: grid;
+  grid-template-columns: 42% 24% 36%;
+  
+  margin: 80px;
+  padding: 0px;
 
-
-.img-block{
-  position: absolute;
-  right: 570px;
+.img-block{  
 
   &:before {
-    content: '<pic>';
+    content: '<img>';
     font-family: 'La Belle Aurore', cursive;
     color: #ffd700;
     font-size: 20px;
     position: absolute;
     margin-top: -18px;
-    margin-left: -30px;
-  
+    margin-left: -30px;  
     opacity: 0.6;
     line-height: 20px;
   }
   
   &:after {
-    content: '<pic/>';
+    content: '</img>';
     font-family: 'La Belle Aurore', cursive;
     color: #ffd700;
     font-size: 20px;
     line-height: 20px;
     position: absolute;
-    // left: -30px;
-    // bottom: -20px;
-    margin-left: -50px;
-    margin-top: 380px;
+    
+    margin-top: 420px;
     opacity: 0.6;
   
   }
 
 .MyPic{
   width: 300px;  
-  // z-index: -1;  
+  z-index: -1;  
   opacity: 95%;
-  transform: rotate(1deg);
-
- 
+  transform: rotate(1deg); 
   
 }
 
-}
+}    
 
-.contacts{
-    width: 60%;
-    height: 100%;
-    top: 0;
-    padding-top: 10%;
-    padding-right: 0;
-    text-align: center;
-    position: absolute;
-    right: 0;
-    overflow: hidden;
-    
-    
+.left-logo{
+  font-size: 50px;
+}
 
     .about-header{
       color: #ffd700;
       font-size: 40px;
       font-family:'Times New Roman', Times, serif;
       font-weight: 300;
-      letter-spacing: 1.5px;
-      margin-left: 30px;
+      letter-spacing: 2px;
+      // margin-left: 30px;
       opacity: 95%;
 
       &:before {
-        content: '<h1>';
+        content: '<h2>';
         font-family: 'La Belle Aurore', cursive;
         color: #ffd700;
         font-size: 18px;
         position: absolute;
-        margin-top: -5px;
-        margin-left: -40px;
+        
+        margin-left: -30px;
         
         opacity: 0.6;
         line-height: 18px;
       }
       
       &:after {
-        content: '<h1/>';
+        content: '<h2/>';
         font-family: 'La Belle Aurore', cursive;
         color: #ffd700;
         font-size: 18px;
         line-height: 18px;
         position: absolute;
-        // left: -30px;
-        // bottom: -20px;
-        margin-left: 20px;
-        margin-top: 40px;
+        margin-left: 0px;
+        margin-top: 45px;
         opacity: 0.6;
       }
       
-    }
+    
     ul{
       list-style: none;
     }
 
     li{
-      margin-left: 20px;
-      padding-left: 360px;
-      text-align: left;
+      
+      
       
     }
-
     
-    a {
-      
+    a {      
       font-size: 22px;
       color: #4d4d4e;
       display: block;
@@ -115,31 +99,22 @@
       height: 41px;
       position: relative;
       text-decoration: none;
-      
     
-    
-    
+       
       &:hover {
         color: #ffd700;
     
          }  
       svg {
-            margin-right: 20px;
+            // margin-right: 20px;
             color: #ffd700;
             font-size: 28px;
-            text-align: justify;
-            position: absolute;
-            left: -40px;
-            bottom: 12px;
-           
-            
-          }
-
-        
-    
-
-      
-
+            // text-align: justify;
+            // position: absolute;
+            // left: -40px;
+            // bottom: 12px;
+                      
+          }    
+           }
 }
-
 }
